@@ -17,15 +17,15 @@ rules:
   - DOMAIN,beesport.livednow.com,DIRECT
 
   # 台湾
-  - DOMAIN-SUFFIX,cdn.hinet.net,Taiwan
+  - DOMAIN-SUFFIX,cdn.hinet.net,🇹🇼 台湾节点
 
   # 海外
-  - DOMAIN-SUFFIX,livednow.com,Proxy
-  - DOMAIN-SUFFIX,orz-7.com,Proxy
-  - DOMAIN-SUFFIX,4gtv.tv,Proxy
-  - DOMAIN-SUFFIX,hinet.net,Proxy
-  - DOMAIN-SUFFIX,ofiii.com,Proxy
-  - DOMAIN-SUFFIX,googlevideo.com,Proxy
-  - DOMAIN-SUFFIX,youtube.com,Proxy
-  - DOMAIN-SUFFIX,mytvsuper.com,Proxy
-  - DOMAIN-SUFFIX,thetvapp.to,Proxy
+  - DOMAIN-SUFFIX,livednow.com,🚀 节点选择
+  - DOMAIN-SUFFIX,orz-7.com,🚀 节点选择
+  - DOMAIN-SUFFIX,4gtv.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
+  - DOMAIN-SUFFIX,ofiii.com,🚀 节点选择
+  - DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
+  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
+  - DOMAIN-SUFFIX,thetvapp.to,🚀 节点选择
