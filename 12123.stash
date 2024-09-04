@@ -1,0 +1,27 @@
+name: "12123"
+desc: "12123"
+openUrl: "http://boxjs.com"
+author: "ChavyLeung"
+homepage: "https://docs.boxjs.app/"
+manual: "https://docs.boxjs.app/"
+icon: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxJs.png"
+category: "BoxJs"
+
+http:
+  force-http-engine:
+    - "miniappcsfw.122.gov.cn:80"
+    - "*.miniappcsfw.122.gov.cn:80"
+  mitm:
+    - "miniappcsfw.122.gov.cn"
+    - "*.miniappcsfw.122.gov.cn"
+  script:
+    - match: ^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz
+      name: 12123
+      type: request
+      require-body: true
+      timeout: 120
+
+script-providers:
+  12123:
+    url: https://gitcode.net/4qiao/scriptable/raw/master/quanX/getToken_12123.jschavy.boxjs.js
+    interval: 86400
